@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Satisfy&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #5aa5d3;
+  padding: 5%;
+}
+
+body {
+  font-family: "Lato", sans-serif, !important;
+  font-size: 85%;
+  color: #2d241b;
+  background-color: #f2e8d7;
+  margin: 0;
+  padding: 1em;
+}
+
+h2, h3, h4 {
+  font-family: "Satisfy", cursive, !important;
+  margin: 0;
+}
+
+h1, .H1Tag {
+  background: #06677d;
+  color: #fff;
+  display: inline-block;
+  font-weight: normal;
+  margin-bottom: 1em;
+  padding: 0.5em 1em;
+  font-family: "Satisfy", cursive, !important;
+}
+
+.h1Tag {
+  font-size: 6em;
+}
+
+h2 {
+  color: #123700;
+  font-weight: 900;
+  font-size: 4em;
+  letter-spacing: 1px;
+  line-height: 1em;
+}
+
+.h2Tag {
+  color: #8091b2;
+}
+
+.h3Tag {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 2.25em;
+  font-weight: 200;
+  letter-spacing: 1px;
+  line-height: 1em;
+  padding: 0.5em 0 0.25em 0;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-weight: 200;
+  letter-spacing: 1px;
+  line-height: 1em;
+  margin: 0.5em 0;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  padding: 0.5em 0;
+  margin: 0;
+}
+
+a {
+  color: #06677d; /* Matches the theme accent color */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+  border-bottom: 2px solid #06677d; /* Underline to emphasize */
+  transition: all 0.3s ease;
+  padding: 0.2em 0.1em;
+  margin-right: 1em; /* Adds spacing between links */
+}
+
+a:hover {
+  color: #c4631e; /* Change color on hover for emphasis */
+  border-bottom-color: #c4631e; /* Matches hover color */
+  background-color: #f2e8d7; /* Subtle highlight */
+  border-radius: 5px;
+}
+
+
+section {
+  background-color: white;
+  padding: 1em;
+  margin: 1em;
+}
+section.colors {
+  display: flex;
+  flex-flow: row wrap;
+}
+section.colors > h3 {
+  width: 100%;
+  flex: 1 0 100%;
+}
+section.colors > figure {
+  margin: 0;
+  flex: 1 1 25%;
+}
+section.colors > figure .text-dark {
+  background-color: #16120d;
+}
+section.colors > figure .swatch {
+  width: 100%;
+  height: 100px;
+  border: 1px solid;
+}
+section.colors > figure:nth-child(5) .swatch {
+  background-color: #123700;
+}
+section.colors > figure:nth-child(4) .swatch {
+  background-color: #c4631e;
+}
+section.colors > figure:nth-child(3) .swatch {
+  background-color: #06677d;
+}
+section.colors > figure:nth-child(2) .swatch {
+  background-color: #007098;
+}
+section.colors > figure:nth-child(1) .swatch {
+  background-color: #06677d;
+}
+section.elements .element {
+  border: 1px solid;
+  margin: 0.5em;
+  padding: 1em;
+}
+section.elements .element.accent1 {
+  background-color: #06677d;
+}
+section.elements .element.accent1 h4 {
+  color: #fff;
+}
+section.elements .element.accent3 {
+  background-color: #adc2db;
+}
+section.elements .element.accent3 h4 {
+  color: #fff;
+}
+section.elements .element p.uppercase {
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+}
+section.elements .element p.uppercase-light {
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+}
+section.elements .element p.uppercase-light.accent4 {
+  background-color: #06677d;
+}/*# sourceMappingURL=style-pattern.css.map */

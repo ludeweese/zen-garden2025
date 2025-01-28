@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: url(/zengarden/Rio.jpg) no-repeat center center fixed;
+  background-size: cover;
+  padding: 5%;
+  border: 10px solid #06677d;
+}
+
+body {
+  font-family: "Lato", sans-serif, !important;
+  font-size: 85%;
+  color: #16120d;
+  margin: 0;
+  padding: 1em;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  z-index: 1;
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+}
+
+h1, .h1Tag {
+  background: #06677d;
+  color: white;
+  display: inline-block;
+  font-weight: normal;
+  margin-bottom: 1em;
+  padding: 0.5em 1em;
+  font-family: "Satisfy", cursive, !important;
+  font-size: 6em;
+  text-align: center; /* Centers the title */
+  z-index: 2;
+}
+
+h2 {
+  font-family: "Satisfy", cursive, !important;
+  color: #123700;
+  font-weight: 900;
+  font-size: 4em;
+  letter-spacing: 1px;
+  line-height: 1em;
+}
+
+.h2Tag {
+  color: #e79961;
+}
+
+h3, h4 {
+  font-family: "Satisfy", cursive, !important;
+  font-weight: 200;
+  letter-spacing: 1px;
+  line-height: 1em;
+  margin: 0.5em 0;
+}
+h3.h3Tag, h4.h3Tag {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 2.25em;
+  padding: 0.5em 0 0.25em 0;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  padding: 0.5em 0;
+  margin: 0;
+}
+p.uppercase {
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: white;
+}
+p.uppercase-light {
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #06677d;
+  color: white;
+}
+
+a {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  color: #16120d;
+  text-decoration: none;
+  transition: border-color 0.2s ease-in-out;
+}
+a:hover {
+  border-color: #088fae;
+}
+
+section {
+  background-color: transparent;
+  padding: 1em;
+  margin: 1em;
+  z-index: 2;
+}
+section.colors {
+  display: flex;
+  flex-wrap: wrap;
+}
+section.colors > h3 {
+  flex: 1 0 100%;
+}
+section.colors > figure {
+  margin: 0;
+  flex: 1 1 25%;
+}
+section.colors > figure .swatch {
+  width: 100%;
+  height: 100px;
+  border: 1px solid;
+}
+section.colors > figure .swatch.accent1 {
+  background-color: #06677d;
+}
+section.colors > figure .swatch.accent2 {
+  background-color: #a5cff8;
+}
+section.colors > figure .swatch.accent3 {
+  background-color: #c4631e;
+}
+section.colors > figure .swatch.accent4 {
+  background-color: #123700;
+}
+section.colors > figure .swatch.text-dark {
+  background-color: #16120d;
+}
+section.elements .element {
+  border: 1px solid;
+  margin: 0.5em;
+  padding: 1em;
+}
+section.elements .element.accent1 {
+  background-color: #06677d;
+}
+section.elements .element.accent1 h4 {
+  color: white;
+}
+section.elements .element.accent3 {
+  background-color: #eeb58d;
+}
+section.elements .element.accent3 h4 {
+  color: white;
+}/*# sourceMappingURL=style.css.map */

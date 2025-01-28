@@ -1,0 +1,105 @@
+/* Variables for colors */
+:root {
+    --light-blue: #a5cff8;    
+    --deep-blue: #06677d;     
+    --burnt-orange: #c4631e;  
+    --dark-green: #123700;    
+    --dark-brown: #16120d;    
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    background: var(--light-blue);    
+    color: var(--deep-blue);          
+}
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: var(--dark-green);     
+    font-family: 'Satisfy', cursive;
+}
+
+/* Circular Links Section */
+.links-section {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(135deg, var(--burnt-orange), var(--burnt-orange)); 
+    background-image: url('/zengarden/Rio.jpg'); 
+    background-size: cover; /* Ensure the image covers the entire circle */
+    background-position: center; 
+    background-blend-mode: overlay; /* Blend the image with the gradient */
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 3px solid var(--deep-blue);    
+    color: white;
+}
+
+.links-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 2px var(--dark-green); 
+}
+
+.links-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links-section li {
+    margin: 10px 0;
+}
+
+.links-section a {
+    color: white;    
+    text-decoration: none;
+    font-weight: bold;
+    background: var(--deep-blue); 
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Updated Hover Effect for Links */
+.links-section a:hover {
+    background: var(--dark-green);  
+    color: white;                 
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .links-section {
+        width: 240px;
+        height: 240px;
+    }
+}
