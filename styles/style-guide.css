@@ -77,20 +77,20 @@ p {
 }
 
 a {
-  color: #06677d; /* Matches the theme accent color */
+  color: #06677d; 
   text-decoration: none;
   font-weight: bold;
   font-size: 1.2em;
-  border-bottom: 2px solid #06677d; /* Underline to emphasize */
+  border-bottom: 2px solid #06677d; 
   transition: all 0.3s ease;
   padding: 0.2em 0.1em;
   margin-right: 1em; /* Adds spacing between links */
 }
 
 a:hover {
-  color: #c4631e; /* Change color on hover for emphasis */
-  border-bottom-color: #c4631e; /* Matches hover color */
-  background-color: #f2e8d7; /* Subtle highlight */
+  color: #c4631e; 
+  border-bottom-color: #c4631e; 
+  background-color: #f2e8d7; 
   border-radius: 5px;
 }
 
