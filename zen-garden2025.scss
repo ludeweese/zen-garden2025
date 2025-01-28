@@ -12,7 +12,7 @@ $color-text-dark: #16120d;
 }
 
 html {
-  background: url(/zengarden/Rio.jpg) no-repeat center center fixed;
+  background: url(./images/rioj.jpg) no-repeat center center fixed;
   background-size: cover; // Ensures the image covers the entire page
   padding: 5%; // Padding to create space for the border
   border: 10px solid $color-accent1; // Border around the body with accent color
@@ -25,9 +25,9 @@ body {
   margin: 0;
   padding: 1em;
   background: rgba(255, 255, 255, 0.8); // Semi-transparent background to allow image to show through
-  border-radius: 15px; // Optional: add rounded corners to the border
+  border-radius: 15px; 
   z-index: 1; // Ensures content stays above the background image
-  backdrop-filter: blur(6px); // Optional: adds a blur effect to the background to make text clearer
+  backdrop-filter: blur(6px); 
 }
 
 // Title container with background image and border
@@ -40,7 +40,7 @@ h1, .h1Tag {
   padding: 0.5em 1em;
   font-family: $font-headlines, !important;
   font-size: 6em;
-  text-align: center; /* Centers the title */
+  text-align: center; 
   z-index: 2; // Ensure title is above the background image
 }
 

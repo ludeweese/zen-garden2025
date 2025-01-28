@@ -3,7 +3,7 @@
 }
 
 html {
-  background: url(/images/rioj.jpg) no-repeat center center fixed;
+  background: url(./images/rioj.jpg) no-repeat center center fixed;
   background-size: cover;
   padding: 5%;
   border: 10px solid #06677d;
@@ -31,7 +31,7 @@ h1, .h1Tag {
   padding: 0.5em 1em;
   font-family: "Satisfy", cursive, !important;
   font-size: 6em;
-  text-align: center; /* Centers the title */
+  text-align: center;
   z-index: 2;
 }
 
@@ -152,4 +152,4 @@ section.elements .element.accent3 {
 }
 section.elements .element.accent3 h4 {
   color: white;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=zen-garden2025.css.map */
